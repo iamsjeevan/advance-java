@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vote Eligibility</title>
+</head>
+<body>
+    <h2>Enter Your Details</h2>
+    <form action="EligibilityServlet" method="post">
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required> Male
+        <input type="radio" id="female" name="gender" value="Female" required> Female<br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <input type="submit" value="Check Eligibility">
+    </form>
+</body>
+</html>
